@@ -1,0 +1,308 @@
+2020-12-30 05:36:19.274  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 05:36:24.277  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 05:36:24.279  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 05:36:24.852  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 05:36:24.908  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
+2020-12-30 05:36:25.600  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 05:36:25.603  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 05:36:25.607  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 05:36:25.701  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 05:36:25.706  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1421 ms
+2020-12-30 05:36:25.805  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-12-30 05:36:25.919  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-12-30 05:36:25.919  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 05:36:26.104  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 05:36:26.185  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 05:36:26.691  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 05:36:26.692  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 05:36:26.712  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 05:36:27.095  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 05:36:27.374  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b0ba4e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5335a736, org.springframework.security.web.header.HeaderWriterFilter@3e142a62, org.springframework.web.filter.CorsFilter@4b3dbf32, org.springframework.security.web.authentication.logout.LogoutFilter@5334080f, com.example.demo.security.JWTAuthenticationFilter@1f305237, com.example.demo.security.JWTAuthenticationVerificationFilter@5582fab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cf7f955, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@132f8593, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13629772, org.springframework.security.web.session.SessionManagementFilter@d667626, org.springframework.security.web.access.ExceptionTranslationFilter@42d3a9cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3795ace6]
+2020-12-30 05:36:27.396  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 05:36:27.494  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 05:36:27.500  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 18.294 seconds (JVM running for 1864.922)
+2020-12-30 05:36:27.503  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 05:37:34.464  INFO 11743 --- [Thread-85] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 05:37:34.472  INFO 11743 --- [Thread-85] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 05:37:34.703  WARN 11743 --- [Thread-85] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 05:37:34.703  INFO 11743 --- [Thread-85] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-12-30 05:37:34.718  INFO 11743 --- [Thread-85] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-12-30 05:37:45.182  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 05:37:50.188  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 05:37:50.188  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 05:37:50.798  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 05:37:50.840  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 4 JPA repository interfaces.
+2020-12-30 05:37:51.579  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 05:37:51.581  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 05:37:51.582  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 05:37:51.605  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 05:37:51.606  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2020-12-30 05:37:51.646  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-12-30 05:37:51.655  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-12-30 05:37:51.655  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 05:37:51.743  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 05:37:51.765  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 05:37:52.074  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 05:37:52.085  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 05:37:52.128  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 05:37:52.684  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 05:37:52.910  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ef41fda, org.springframework.security.web.context.SecurityContextPersistenceFilter@34065f40, org.springframework.security.web.header.HeaderWriterFilter@6144ebf2, org.springframework.web.filter.CorsFilter@1c8a31ae, org.springframework.security.web.authentication.logout.LogoutFilter@35ebe663, com.example.demo.security.JWTAuthenticationFilter@1e165f9, com.example.demo.security.JWTAuthenticationVerificationFilter@739c6981, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19d89d0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f05febc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d98a2e7, org.springframework.security.web.session.SessionManagementFilter@98cbe8c, org.springframework.security.web.access.ExceptionTranslationFilter@6a08ef69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bd12bd7]
+2020-12-30 05:37:52.944  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 05:37:53.106  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 05:37:53.117  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 18.003 seconds (JVM running for 1950.536)
+2020-12-30 05:37:53.127  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 05:37:53.487  INFO 11743 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 05:37:53.490  INFO 11743 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 05:37:53.498  INFO 11743 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-30 05:37:53.922  INFO 11743 --- [http-nio-8888-exec-2] c.e.demo.controllers.UserController      : managed to create user: 
+2020-12-30 05:41:32.339  WARN 11743 --- [http-nio-8888-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-12-30 05:41:32.343 ERROR 11743 --- [http-nio-8888-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-200]
+2020-12-30 05:41:32.690 ERROR 11743 --- [http-nio-8888-exec-5] c.e.demo.controllers.UserController      : org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-12-30 06:01:06.476  INFO 11743 --- [http-nio-8888-exec-6] c.e.demo.controllers.OrderController     : successfully saved order
+2020-12-30 06:07:22.873 ERROR 11743 --- [http-nio-8888-exec-2] c.e.demo.controllers.UserController      : exception happened for user'gavin': msg=''password doesn't meeet confirmPassword'}
+2020-12-30 06:07:32.274 ERROR 11743 --- [http-nio-8888-exec-4] c.e.demo.controllers.UserController      : exception happened for user'gavin': msg=''password length 7 is short of required length 8'}
+2020-12-30 06:51:48.576  INFO 11743 --- [Thread-90] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:51:48.601  INFO 11743 --- [Thread-90] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:51:49.045  WARN 11743 --- [Thread-90] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 06:51:49.047  INFO 11743 --- [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-12-30 06:51:49.114  INFO 11743 --- [Thread-90] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-12-30 06:52:02.245  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:52:07.251  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:52:07.253  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:52:09.075  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:52:09.141  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 4 JPA repository interfaces.
+2020-12-30 06:52:10.674  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 06:52:10.678  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 06:52:10.678  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 06:52:10.818  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 06:52:10.820  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3547 ms
+2020-12-30 06:52:10.955  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-12-30 06:52:11.058  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-12-30 06:52:11.059  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 06:52:11.201  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 06:52:11.241  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 06:52:12.130  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 06:52:12.145  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:52:12.216  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 06:52:13.574  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 06:52:14.856  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79e64d53, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e262a97, org.springframework.security.web.header.HeaderWriterFilter@698a288c, org.springframework.web.filter.CorsFilter@7248a53c, org.springframework.security.web.authentication.logout.LogoutFilter@7b6b5300, com.example.demo.security.JWTAuthenticationFilter@7178fae2, com.example.demo.security.JWTAuthenticationVerificationFilter@6d8d904e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fca4173, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@673ccc4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@264ad479, org.springframework.security.web.session.SessionManagementFilter@738e06fa, org.springframework.security.web.access.ExceptionTranslationFilter@6ac36bd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17816d1e]
+2020-12-30 06:52:15.128  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:52:15.756  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 06:52:15.806  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 23.974 seconds (JVM running for 6413.093)
+2020-12-30 06:52:15.816  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 06:52:25.253  INFO 11743 --- [Thread-95] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:52:25.256  INFO 11743 --- [Thread-95] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:52:25.458  WARN 11743 --- [Thread-95] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 06:52:25.459  INFO 11743 --- [Thread-95] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-12-30 06:52:25.462  INFO 11743 --- [Thread-95] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-12-30 06:52:36.233  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:52:41.235  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:52:41.235  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:52:42.241  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:52:42.272  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 4 JPA repository interfaces.
+2020-12-30 06:52:43.653  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 06:52:43.657  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 06:52:43.658  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 06:52:43.671  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 06:52:43.671  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2431 ms
+2020-12-30 06:52:43.723  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-12-30 06:52:43.728  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-12-30 06:52:43.728  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 06:52:44.010  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 06:52:44.020  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 06:52:44.636  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 06:52:44.640  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:52:44.758  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 06:52:45.657  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 06:52:46.159  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f2af8c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@42e93f15, org.springframework.security.web.header.HeaderWriterFilter@68aa3192, org.springframework.web.filter.CorsFilter@1a573f8e, org.springframework.security.web.authentication.logout.LogoutFilter@4ae19d52, com.example.demo.security.JWTAuthenticationFilter@66f3fada, com.example.demo.security.JWTAuthenticationVerificationFilter@5d6db4b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18419b05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21de0f3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5589e361, org.springframework.security.web.session.SessionManagementFilter@7ece527, org.springframework.security.web.access.ExceptionTranslationFilter@48425603, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@411f5756]
+2020-12-30 06:52:46.197  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:52:46.642  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 06:52:46.663  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 20.487 seconds (JVM running for 6443.948)
+2020-12-30 06:52:46.672  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 06:54:19.565  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:54:24.570  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:54:24.570  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:54:25.272  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:54:25.503 ERROR 11743 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.example.demo.model.persistence.Cart not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_232]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_232]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_232]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_232]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_232]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_232]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_232]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_232]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_232]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:62) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:52) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:77) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:102) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:148) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.repository.config.RepositoryBeanDefinitionRegistrarSupport.registerBeanDefinitions(RepositoryBeanDefinitionRegistrarSupport.java:107) ~[spring-data-commons-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:384) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_232]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:383) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.example.demo.SareetaApplication.main(SareetaApplication.java:29) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_232]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_232]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_232]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_232]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+Caused by: java.lang.ClassNotFoundException: com.example.demo.model.persistence.Cart
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_232]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[na:1.8.0_232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_232]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_232]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_232]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_232]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_232]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_232]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_232]
+	... 45 common frames omitted
+
+2020-12-30 06:54:30.789  INFO 11743 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 06:54:30.790  INFO 11743 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 06:54:40.802  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:54:45.805  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:54:45.805  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:54:46.354  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:54:46.401  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 4 JPA repository interfaces.
+2020-12-30 06:54:47.028  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 06:54:47.029  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 06:54:47.030  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 06:54:47.052  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 06:54:47.054  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1244 ms
+2020-12-30 06:54:47.096  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-12-30 06:54:47.105  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-12-30 06:54:47.109  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 06:54:47.241  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 06:54:47.281  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 06:54:47.669  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 06:54:47.669  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:54:47.702  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 06:54:48.858  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 06:54:49.657  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@613985a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@28e7464f, org.springframework.security.web.header.HeaderWriterFilter@ab9327, org.springframework.web.filter.CorsFilter@616070b9, org.springframework.security.web.authentication.logout.LogoutFilter@20c2ccff, com.example.demo.security.JWTAuthenticationFilter@481979a8, com.example.demo.security.JWTAuthenticationVerificationFilter@89eccbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@534650be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fa8c35a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@252774b7, org.springframework.security.web.session.SessionManagementFilter@7a08f312, org.springframework.security.web.access.ExceptionTranslationFilter@4497f9b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@241c9b7e]
+2020-12-30 06:54:49.744  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:54:50.147  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 06:54:50.186  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 19.414 seconds (JVM running for 6567.467)
+2020-12-30 06:54:50.206  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 06:55:22.949  INFO 11743 --- [Thread-105] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:55:22.953  INFO 11743 --- [Thread-105] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:55:23.156  WARN 11743 --- [Thread-105] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 06:55:23.159  INFO 11743 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2020-12-30 06:55:23.164  INFO 11743 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2020-12-30 06:55:33.577  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:55:38.580  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:55:38.580  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:55:39.104  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:55:39.158  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 4 JPA repository interfaces.
+2020-12-30 06:55:40.400  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 06:55:40.404  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 06:55:40.405  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 06:55:40.440  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 06:55:40.440  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1856 ms
+2020-12-30 06:55:40.490  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2020-12-30 06:55:40.494  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2020-12-30 06:55:40.494  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 06:55:40.706  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 06:55:40.715  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 06:55:41.313  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 06:55:41.341  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:55:41.500  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 06:55:42.383  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 06:55:43.425  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4501b6b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@79eb4eef, org.springframework.security.web.header.HeaderWriterFilter@5a56ce6c, org.springframework.web.filter.CorsFilter@2e44f925, org.springframework.security.web.authentication.logout.LogoutFilter@4d3fbbaa, com.example.demo.security.JWTAuthenticationFilter@17bb22d4, com.example.demo.security.JWTAuthenticationVerificationFilter@7db5ac6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70dfdd41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c965898, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c91169, org.springframework.security.web.session.SessionManagementFilter@3178638a, org.springframework.security.web.access.ExceptionTranslationFilter@8b021a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6421c8a4]
+2020-12-30 06:55:43.567  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:55:44.032  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 06:55:44.040  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 20.501 seconds (JVM running for 6621.32)
+2020-12-30 06:55:44.043  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 06:55:51.428  INFO 11743 --- [Thread-113] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:55:51.431  INFO 11743 --- [Thread-113] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:55:51.639  WARN 11743 --- [Thread-113] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 06:55:51.640  INFO 11743 --- [Thread-113] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2020-12-30 06:55:51.665  INFO 11743 --- [Thread-113] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2020-12-30 06:56:01.944  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 06:56:06.948  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 06:56:06.950  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 06:56:07.320  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 06:56:07.355  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 4 JPA repository interfaces.
+2020-12-30 06:56:07.682  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 06:56:07.683  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 06:56:07.683  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 06:56:07.711  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 06:56:07.711  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 751 ms
+2020-12-30 06:56:07.747  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2020-12-30 06:56:07.755  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2020-12-30 06:56:07.755  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 06:56:07.829  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 06:56:07.837  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 06:56:08.167  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 06:56:08.170  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 06:56:08.217  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 06:56:08.720  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 06:56:08.994  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a8b5c15, org.springframework.security.web.context.SecurityContextPersistenceFilter@57d15b19, org.springframework.security.web.header.HeaderWriterFilter@1777fd4e, org.springframework.web.filter.CorsFilter@150db468, org.springframework.security.web.authentication.logout.LogoutFilter@812f41, com.example.demo.security.JWTAuthenticationFilter@26107e9c, com.example.demo.security.JWTAuthenticationVerificationFilter@71a360df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74762144, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c432f09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61d8f10a, org.springframework.security.web.session.SessionManagementFilter@66bcf56d, org.springframework.security.web.access.ExceptionTranslationFilter@1466fc43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fd7067f]
+2020-12-30 06:56:09.033  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 06:56:09.267  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 06:56:09.277  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 17.379 seconds (JVM running for 6646.557)
+2020-12-30 06:56:09.287  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 07:52:14.940  INFO 11743 --- [Thread-118] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 07:52:14.957  INFO 11743 --- [Thread-118] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 07:52:15.213  WARN 11743 --- [Thread-118] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 07:52:15.214  INFO 11743 --- [Thread-118] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2020-12-30 07:52:15.219  INFO 11743 --- [Thread-118] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2020-12-30 07:52:26.850  WARN 11743 --- [restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-12-30 07:52:31.852  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Starting SareetaApplication on sky-4.local with PID 11743 (/Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app/target/classes started by gavin in /Users/gavin/Coding/java/udacity-nanodegree/ecommerce-app)
+2020-12-30 07:52:31.852  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-12-30 07:52:32.974  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 07:52:32.996  INFO 11743 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 4 JPA repository interfaces.
+2020-12-30 07:52:35.107  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-12-30 07:52:35.113  INFO 11743 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 07:52:35.114  INFO 11743 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 07:52:35.145  INFO 11743 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 07:52:35.145  INFO 11743 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3286 ms
+2020-12-30 07:52:35.360  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2020-12-30 07:52:35.389  INFO 11743 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2020-12-30 07:52:35.390  INFO 11743 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+2020-12-30 07:52:35.543  INFO 11743 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 07:52:35.690  INFO 11743 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-30 07:52:36.252  INFO 11743 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 07:52:36.253  INFO 11743 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 07:52:36.325  INFO 11743 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 07:52:37.492  WARN 11743 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 07:52:38.202  INFO 11743 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ca8cc79, org.springframework.security.web.context.SecurityContextPersistenceFilter@12fe744, org.springframework.security.web.header.HeaderWriterFilter@6c62098f, org.springframework.web.filter.CorsFilter@24bf638b, org.springframework.security.web.authentication.logout.LogoutFilter@229ac418, com.example.demo.security.JWTAuthenticationFilter@37abb556, com.example.demo.security.JWTAuthenticationVerificationFilter@bead82e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3370b2ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f22fb3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@614b162e, org.springframework.security.web.session.SessionManagementFilter@6e3fbff2, org.springframework.security.web.access.ExceptionTranslationFilter@426e1075, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@520dde0b]
+2020-12-30 07:52:38.347  INFO 11743 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 07:52:38.670  INFO 11743 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-30 07:52:38.677  INFO 11743 --- [restartedMain] com.example.demo.SareetaApplication      : Started SareetaApplication in 21.964 seconds (JVM running for 10035.856)
+2020-12-30 07:52:38.686  INFO 11743 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-30 07:58:17.904  INFO 11743 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 07:58:17.922  INFO 11743 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 07:58:18.280  WARN 11743 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-30 07:58:18.281  INFO 11743 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2020-12-30 07:58:18.285  INFO 11743 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
